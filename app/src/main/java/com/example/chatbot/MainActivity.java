@@ -1,7 +1,6 @@
 package com.example.chatbot;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -30,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     private ArrayList<ChatsModel>chatsModelArrayList;
     private ChatRVAdapter chatRVAdapter;
 
-
+//add
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
